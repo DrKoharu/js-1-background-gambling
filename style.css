@@ -1,0 +1,65 @@
+:root{
+  --primary-color: #ffffff;
+  --secondary-color: #000000;
+  --third-color: #00e1ff;
+  --four-color: #ffff00, #ff0000, #00ff2a, #0037ff;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  background-color: var(--third-color);
+}
+
+.ganti{
+  background-color: var(--four-color);
+}
+.nav{
+  display: flex;
+  background-color: var(--primary-color);
+  top: 0;
+  padding: 20px 20px;
+  width: 100%;
+  left: 0;
+  position: fixed;
+  z-index: 1000;
+}
+
+.box{
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  width: 500px;
+  height: 300px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: auto;
+  margin-top: 200px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 20px
+}
+
+.petunjuk{
+  margin: auto;
+  margin-top: 60px;
+}
+
+.btn{
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: auto;
+  margin-bottom: 60px;
+  padding: 10px 100px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
